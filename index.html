@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mockup Progetto settimanale</title>
     <link rel="stylesheet" href="./reset.css/reset.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css/style.css" />
 
 </head>
@@ -46,28 +49,33 @@
         <div id="red-side">
             <h2>Epicode garantisce</h2>
             <p>
-                "3 mesi intensivi di corso che cambieranno radicalmente la tua vita".
+                "3 mesi intensivi di corso che cambieranno <br>radicalmente la tua vita".
             </p>
-            <p>
-                Mario Rossi CEO, Epicode
-            </p>
+            <div id="nome">
+                <p>
+                    Mario Rossi
+                </p>
+                <p>
+                    CEO, Epicode
+                </p>
+            </div>
         </div>
 
-        <sezione_immagini>
-            <div>
+        <sezione_immagini id="sez_im">
+            <div id="foto1">
                 <img src="./assets/foto1.jpg" />
                 <h4>Il tuo PC</h4>
                 <p>
                     Se vuoi diventare developer è l’unico strumento di cui hai bisogno.</p>
             </div>
-            <div>
+            <div id="foto2">
                 <img src="./assets/foto2.jpg" />
                 <h4>Impara ora</h4>
                 <p>
                     Impara da chi diventerai tra qualche anno, e diventa una rockstar come loro.
                 </p>
             </div>
-            <div>
+            <div id="foto3">
                 <img src="./assets/foto3.jpg" />
                 <h4>Lavora subito</h4>
                 <p>
@@ -78,13 +86,23 @@
         </sezione_immagini>
     </main>
     <footer>
+        <h2>Contattaci</h2>
         <nav>
-            <h2>Contattaci</h2>
-            <a href="#" target="_blank"></a>(+39)11223456</a>
-            <a href="#" target="_blank">info@epicode.school</a>
-            <a hfer="#" target="_blank">Via Appia 1-00100 Rpma (RM)</a>
+
+            <div id="numero">
+                <a href="#" target="_blank"><i class="fas fa-phone-square-alt"></i>(+39)11223456</a>
+            </div>
+            <div>
+                <a href="#" target="_blank"><i class="fas fa-envelope-square"></i>info@epicode.school</a>
+            </div>
+            <div>
+                <a hfer="#" target="_blank"><i class="fas fa-external-link-square-alt"></i>Via Appia 1-00100 Rpma
+                    (RM)</a>
+            </div>
         </nav>
+        <hr>
         <p>&copy;2021. Immagini di <a href="#" target="_blank">Pixabay</a>
+        </p>
     </footer>
 
 </body>

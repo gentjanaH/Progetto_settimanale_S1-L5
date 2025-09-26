@@ -49,21 +49,6 @@ body {
 
 }
 
-
-/*Body: #393d41 – 1.2rem – Open Sans – interlinea 1.65
-Headings: #25a2c3 – Montserrat (bold) – interlinea 1.5
-Footer: #c8e7f0
-Footer Heading: white
-Footer link: #c8e7f0
-
-Colori sfondo
-Header: black
-Pulsante: #f04c2f – Montserrat (bold) – bold
-Testimonianze: #e22d0e
-Footer: #25a2c3
-
-Bordi
-Bordo schede: #dee1e3*/
 /*TOPBAR*/
 
 #topbar {
@@ -159,7 +144,144 @@ main h4 {
 
 #red-side {
     background-color: #f04c2f;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    color: white;
+    height: 18em;
 }
 
+#red-side h2 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#red-side p {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+
+}
+
+#nome p:first-of-type {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-size: medium;
+    font-weight: 400;
+    margin-top: 2em;
+}
+
+#nome p:last-child {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: small;
+    font-weight: 200;
+}
+
+#nome {
+    margin-bottom: 2em;
+}
+
+
+
 /* SEZIONE IMMAGINI */
+
+#foto1 {
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    border: 1px solid #dee1e3;
+}
+
+#foto1 img {
+    width: 100%;
+}
+
+#foto2 {
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    border: 1px solid #dee1e3;
+}
+
+#foto2 img {
+    width: 100%;
+}
+
+#foto3 {
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    border: 1px solid #dee1e3;
+}
+
+#foto3 img {
+    width: 100%;
+}
+
+#sez_im p {
+    padding-bottom: 1em;
+}
+
 /* FOOTER */
+hr {
+    height: 1px;
+    width: 10em;
+    background-color: #c8e7f0;
+    border: none;
+
+
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #25a2c3;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20em;
+}
+
+footer h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+footer p {
+    font-size: small;
+    color: #c8e7f0;
+    padding-top: 2em;
+
+}
+
+footer a {
+    color: #c8e7f0;
+}
+
+nav {
+    color: #c8e7f0;
+}
+
+nav a {
+    color: #c8e7f0;
+}
+
+nav i {
+    color: white;
+    margin-right: 3px;
+}
+
+#numero {
+    text-decoration: underline;
+}
